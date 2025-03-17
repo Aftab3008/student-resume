@@ -3,6 +3,8 @@ import ShowResume from "@/components/ShowResume";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 export default function page() {
   return (
     <div className="min-h-screen flex flex-col pt-24 pb-8 md:pt-32">
